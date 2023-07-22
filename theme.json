@@ -30,34 +30,34 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "#888888",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#000000",
+					"color": "#CCCCCC",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#9DFF20",
+					"color": "#293136",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#345C00",
+					"color": "#3A444A",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#F6F6F6",
+					"color": "#445058",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				}
 			]
 		},
 		"layout": {
-			"contentSize": "650px",
+			"contentSize": "100vw",
 			"wideSize": "1200px"
 		},
 		"spacing": {
@@ -695,12 +695,12 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "1.5rem",
+			"blockGap": "0rem",
 			"padding": {
-				"top": "var(--wp--preset--spacing--40)",
-				"right": "var(--wp--preset--spacing--30)",
-				"bottom": "var(--wp--preset--spacing--40)",
-				"left": "var(--wp--preset--spacing--30)"
+				"top": "0rem",
+				"right": "0rem",
+				"bottom": "0rem",
+				"left": "0rem"
 			}
 		},
 		"typography": {

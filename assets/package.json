@@ -12,11 +12,10 @@
   "author": "Ronald Lussier",
   "license": "ISC",
   "dependencies": {
-    "esbuild": "0.17.18",
+    "esbuild": "^0.18.15",
+    "esbuild-sass-plugin": "^2.10.0",
     "gsap": "^3.11.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
 }
-
-
