@@ -14,8 +14,11 @@
   "dependencies": {
     "esbuild": "^0.18.15",
     "esbuild-sass-plugin": "^2.10.0",
-    "gsap": "^3.11.5",
+    "gsap": "npm:@gsap/shockingly@^3.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/gsap": "^3.0.0"
   }
 }
