@@ -35,7 +35,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#CCCCCC",
+					"color": "#FFFFFF",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
@@ -109,49 +109,6 @@
 			"dropCap": false,
 			"fluid": true,
 			"fontFamilies": [
-				{
-					"fontFace": [
-						{
-							"fontFamily": "DM Sans",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/dm-sans/DMSans-Regular.woff2"
-							]
-						},
-						{
-							"fontFamily": "DM Sans",
-							"fontStretch": "normal",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/dm-sans/DMSans-Regular-Italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "DM Sans",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/dm-sans/DMSans-Bold.woff2"
-							]
-						},
-						{
-							"fontFamily": "DM Sans",
-							"fontStretch": "normal",
-							"fontStyle": "italic",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/dm-sans/DMSans-Bold-Italic.woff2"
-							]
-						}
-					],
-					"fontFamily": "\"DM Sans\", sans-serif",
-					"name": "DM Sans",
-					"slug": "dm-sans"
-				},
 				{
 					"fontFace": [
 						{
@@ -244,6 +201,62 @@
 					"fontFamily": "\"Source Serif Pro\", serif",
 					"name": "Source Serif Pro",
 					"slug": "source-serif-pro"
+				},
+				{
+					"fontFamily": "Waterfall",
+					"slug": "waterfall",
+					"fontFace": [
+						{
+							"fontFamily": "Waterfall",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/waterfall_normal_400.ttf"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Wellfleet",
+					"slug": "wellfleet",
+					"fontFace": [
+						{
+							"fontFamily": "Wellfleet",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/wellfleet_normal_400.ttf"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Architects Daughter",
+					"slug": "architects-daughter",
+					"fontFace": [
+						{
+							"fontFamily": "Architects Daughter",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/architects-daughter_normal_400.ttf"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Zen Dots",
+					"slug": "zen-dots",
+					"fontFace": [
+						{
+							"fontFamily": "Zen Dots",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/zen-dots_normal_400.ttf"
+							]
+						}
+					]
 				}
 			],
 			"fontSizes": [
@@ -395,7 +408,7 @@
 					}
 				}
 			},
-			"core/comments-title":{
+			"core/comments-title": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)"
 				},

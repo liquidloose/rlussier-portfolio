@@ -42,11 +42,12 @@ function enqueue_scripts() {
 }
 
 
-
-
-
-
-
+add_action('wp_head', 'add_google_fonts');
+function add_google_fonts() {
+    echo '<link rel="preconnect" href="https://fonts.googleapis.com">';
+    echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>';
+    echo '<link href="https://fonts.googleapis.com/css2?family=Wellfleet&display=swap" rel="stylesheet">';
+}
 
 
 

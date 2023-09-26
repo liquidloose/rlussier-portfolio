@@ -12,8 +12,11 @@
   "author": "Ronald Lussier",
   "license": "ISC",
   "dependencies": {
-    "esbuild": "^0.18.15",
-    "esbuild-sass-plugin": "^2.10.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/joy": "^5.0.0-beta.0",
+    "esbuild": "^0.19.2",
+    "esbuild-sass-plugin": "^2.13.0",
     "gsap": "npm:@gsap/shockingly@^3.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

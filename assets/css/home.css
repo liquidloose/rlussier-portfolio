@@ -1,19 +1,2 @@
 /* scss/home.scss */
-.wp-block-columns.intro {
-  margin-top: 8vh;
-  margin-bottom: 21vh;
-}
-.wp-block-columns.blog {
-  gap: 2px;
-}
-.wp-block-columns.columns {
-  display: flex;
-  flex-direction: row;
-  gap: 2px;
-  justify-content: space-between;
-}
-.before-big-things {
-  margin-top: 10vh !important;
-  margin-bottom: 6vh !important;
-}
 /*# sourceMappingURL=home.css.map */
