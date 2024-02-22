@@ -1,0 +1,49 @@
+<style>
+  header.is-layout-flex {
+    align-items: center;
+  }
+
+  a.wp-block-navigation-item__content:hover {
+    color: var(--wp--preset--color--contrast) !important;
+    background: white !important;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 728px) {
+    .wp-container-core-group-layout-3.wp-container-core-group-layout-3 {
+      flex-direction: column;
+    }
+    .rluss-nav-menu {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<!-- wp:group {"tagName":"header","align":"wide","style":{"spacing":{"padding":{"top":"20px","bottom":"20px"}}},"backgroundColor":"contrast-2","layout":{"type":"constrained"}} -->
+<header
+  class="wp-block-group alignwide has-contrast-2-background-color has-background"
+  style="padding-top: 20px; padding-bottom: 20px"
+>
+  <!-- wp:group {"tagName":"header","style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"backgroundColor":"accent-3","className":"ronald","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+  <header
+    class="wp-block-group ronald has-accent-3-background-color has-background"
+    style="
+      padding-right: var(--wp--preset--spacing--20);
+      padding-left: var(--wp--preset--spacing--20);
+    "
+  >
+    <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex"}} -->
+    <div class="wp-block-group">
+      <!-- wp:group {"style":{"spacing":{"blockGap":"0px"},"layout":{"selfStretch":"fill","flexSize":null}}} -->
+      <div class="wp-block-group">
+        <!-- wp:navigation {"ref":4,"backgroundColor":"accent-3","overlayMenu":"never","icon":"menu","layout":{"type":"flex","orientation":"horizontal","flexWrap":"nowrap"},"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"blockGap":"0"}},"fontSize":"large"} /-->
+      </div>
+      <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:navigation {"ref":1015,"backgroundColor":"accent-3","overlayMenu":"never","className":"rluss-nav-menu","layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0"},"blockGap":"0px"},"typography":{"fontStyle":"normal","fontWeight":"500"},"layout":{"selfStretch":"fit","flexSize":null}},"fontSize":"large"} /-->
+  </header>
+  <!-- /wp:group -->
+</header>
+<!-- /wp:group -->

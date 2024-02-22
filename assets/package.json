@@ -1,0 +1,24 @@
+{
+  "name": "tfg-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node ./esbuild/watch.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean:maps": "find . -name '*.map' -exec rm {} \\;",
+    "build": "node ./esbuild/build.mjs && find . -name '*.map' -exec rm {} \\;"
+  },
+  "author": "Ronald Lussier",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.18.15",
+    "esbuild-sass-plugin": "^2.10.0",
+    "gsap": "npm:@gsap/shockingly@^3.12.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/gsap": "^3.0.0"
+  }
+}
