@@ -2,9 +2,9 @@
 
 /**
  * Title: page
- * Slug: rlussierportfolio/page
+ * Slug: rlussier-portfolio/page
  * Categories: hidden
- * Inserter: no
+ * Inserter: yes
  */
 ?>
 <!-- wp:template-part {"slug":"header","tagName":"header","area":"header"} /-->

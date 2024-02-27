@@ -3,8 +3,8 @@
 /**
  * Title: web-dev-hero
  * Slug: rlussier-portfolio/web-dev-hero
- * Categories: 'hero'
- * Inserter: no
+ * Categories: hero
+ * Inserter: yes
  */
 ?>
 
