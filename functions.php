@@ -13,8 +13,6 @@ function register_site_styles() {
 //register scripts
 add_action('init', 'register_site_scripts');
 function register_site_scripts() {
-    $url = get_stylesheet_directory_uri() . '/assets/js-compiled/smooth.js';
-    wp_register_script('smooth', $url, [], 1.0);
 }
 
 // Enqueue Styles
