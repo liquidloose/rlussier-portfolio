@@ -38,4 +38,3 @@ function enqueue_scripts() {
         wp_enqueue_script('smooth');
     }
 }
-
