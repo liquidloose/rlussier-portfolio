@@ -1,4 +1,6 @@
 <?php
+// Include the file containing the GitHub_Meta_Box class from the child theme directory
+require_once get_stylesheet_directory() . '/inc/custom-field-classes.php';
 
 //register styles
 add_action('init', 'register_site_styles');
@@ -38,3 +40,9 @@ function enqueue_scripts() {
         wp_enqueue_script('smooth');
     }
 }
+
+
+
+
+// Instantiate the class with the name of the meta box
+$github = new GitHub_Meta_Box('GitHub Link');
